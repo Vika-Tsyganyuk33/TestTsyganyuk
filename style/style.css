@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+@font-face {
+    font-family: 'SamsungOneCyrillic';
+    src: url(../style/fonts/SamsungOne-400.woff2);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../style/fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: 'SamsungSharpSansBd';
+    src: url(../style/fonts/SamsungSharpSansBd.woff2);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'SamsungOneCyrillic';
+    font-weight: 600;
+}
+header {
+    padding: 7px 40px;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: normal;
+}
+header a {
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(114, 114, 114, 1);
+}
+main {
+    flex-grow: 1;
+}
+.lh-24{
+    line-height: 24px;
+}
+.top-section {
+    background-color: rgba(70, 89, 255, 0.3);
+    padding: 35px 40px 0;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 130px;
+}
+.start h2 {
+    font-size: 25px;
+    line-height: 31px;
+    font-family: 'SamsungSharpSansBd';
+    margin: 20px 0;
+}
+.top-section p {
+    max-width: 420px;
+    width: 100%;
+}
+.image-container {
+    margin-top: -143px;
+    position: relative;
+    z-index: 2;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(0 36%, 100% 0, 100% 62%, 0 95%);
+}
+.bot-section {
+    padding: 0 40px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    margin-top: -52px;
+}
+.bot-section p:nth-child(1) {
+    font-family: 'SamsungSharpSansBd';
+    color: rgba(187, 217, 0, 1);
+}
+.bot-section p:nth-child(3) {
+    max-width: 450px;
+    width: 100%;
+}
+button {
+    max-width: 154px;
+    width: 100%;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: initial;
+    font-family: 'SamsungOneCyrillic';
+    font-weight: 600;
+    margin-top: 20px;
+}
+button a {
+    color: black;
+    font-size: 16px;
+}
+.cooking {
+    margin-bottom: 50px;
+}
+.image-container-cooking img {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 36%, 100% 95%, 0 62%);
+    z-index: 1;
+}
+.bot-section-cooking {
+    z-index: 2;
+    margin-top: -52px;
+    padding: 0 40px;
+}
+.bot-section-cooking p:nth-child(1) {
+    color: rgba(8, 122, 205, 1);
+    font-family: 'SamsungSharpSansBd';
+    text-transform: uppercase;
+}
+.bot-section-cooking h2 {
+    font-size: 25px;
+    margin: 20px 0;
+    font-family: 'SamsungSharpSansBd';
+}
+.bot-section-cooking p:nth-child(3) {
+    max-width: 509px;
+    width: 100%;
+}
+.bot-section-cooking button {
+    max-width: 169px;
+    width: 100%;
+}
+.bot-section-cooking a {
+    text-decoration: none;
+}
+.AI {
+    margin-bottom: 50px;
+}
+.AI img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.bot-section-AI {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    padding: 0 40px;
+}
+.bot-section-AI p:nth-child(1) {
+    color: rgba(86, 2, 194, 1);
+    font-family: 'SamsungSharpSansBd';
+}
+.bot-section-AI h2 {
+    margin: 20px 0;
+    font-family: 'SamsungSharpSansBd';
+}
+.bot-section-AI p:nth-child(3) {
+    margin-left: 40px;
+}
+.function {
+    background-color: rgba(227, 227, 227, 1);
+    padding: 60px 20px 40px;
+    text-align: center;
+}
+.function h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'SamsungSharpSansBd';
+}
+.function div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.function div>div {
+    border: 1px solid black;
+    margin: 15px 0;
+    max-width: 190px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+footer {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+footer div:nth-child(1) {
+    max-width: 401px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+footer h2 {
+    font-family: 'SamsungSharpSansBd';
+    font-size: 28px;
+    text-align: center;
+    margin: 15px 0;
+}
+.smile {
+    margin-top: 20px;
+    max-width: 277px;
+    width: 100%;
+    margin: 0 auto;
+}
+.smile img {
+    max-width: 52.4px;
+    width: 100%;
+}
+.media {
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.media img {
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+}
+.inform {
+    color: rgba(129, 129, 129, 1);
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 10px;
+    font-weight: 100;
+}
+.mailing {
+    text-align: center;
+    color: rgba(129, 129, 129, 1);
+    font-size: 10px;
+    line-height: 11.99px;
+    font-weight: 100;
+    margin-top: 40px;
+    padding: 0 5px;
+}
+.mailing p:nth-child(2) {
+    margin-top: 15px;
+    text-decoration: underline;
+}
+@media (max-width: 428px) {
+    .bot-section-cooking {
+        margin-top: -20px;
+    }
+}
+@media (max-width: 364px) {
+    .top-section {
+     padding-bottom: 112px;
+    }
+    .image-container {
+        margin-top: -124px;
+    }
+    .bot-section-AI,  .bot-section-cooking, .bot-section, header{
+        padding: 0 20px;
+    }
+}
